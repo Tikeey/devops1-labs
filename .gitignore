@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+
+# Secrets & env
+*.env
+.env
+*.pem
+*.key
+!id_ed25519.pub
+
+# Python (если будут скрипты)
+__pycache__/
+*.pyc
+venv/
+
+# Node (если понадобится для чего-то)
+node_modules/
+
+# Docker
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+*.swp
